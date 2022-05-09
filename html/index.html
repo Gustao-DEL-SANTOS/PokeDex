@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeDex</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    
+</head>
+<body onload="alert('Id max 898'), buscar()">
+    <header>
+        <h1>PokeDex</h1>
+    </header>
+    <section id="dex-sec">
+
+        <div id="dex-p">
+            <span>
+                <input type="text" name="pesquisa-dex" id="search" value="Pikachu">
+                <button type="button" onclick="buscar()">
+                <input type="image" src="../img/lupa.png" width="30" height="30" />
+                </button>
+            </span>
+
+            <div id="carta-pokemon" class="dex-cards-principal">
+                <h2 id="p-num">id</h2>
+                
+                <img id="img" alt="imagem do pokemon">
+                <h3 id="p-nome">nome</h3>
+
+            </div>
+
+            <!-- <div id="lista-pokemon" class="dex-cards-principal">
+                <select id="lista">
+                </select>
+                
+            </div> -->
+
+        </div>
+
+
+    </section>
+
+
+    <footer>
+        <p>&copy; Serviço feito por Gustavo Del Santos</p>
+    </footer>
+    
+    <script type="text/javascript" src="../js/poke.js"></script>
+</body>
+</html>

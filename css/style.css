@@ -1,0 +1,64 @@
+body{
+    background-color: rgba(58, 8, 241, 0.899);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: red;
+}
+
+#dex-sec{
+
+    margin: 10px 400px;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#search{
+    border: initial;
+    border-bottom: solid rgb(252, 0, 0) 1px;
+    width: 200px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 20px 0px;
+    color:red;
+
+}
+
+
+button{
+    background-color: rgb(255, 255, 255, 0);
+    border: hidden;
+}
+
+/* #lista{
+    height: 30px;
+    width: 90%;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    color: red;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    background-color: black;
+} */
+
+.dex-cards-principal{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background:rgb(0, 0, 0);
+    margin: 10px;
+    border-radius: 30px;
+    border:solid 2px red;
+}
+
+input{
+    margin: 5px;
+    padding: auto;
+    text-align: center;
+}
+
+
+
