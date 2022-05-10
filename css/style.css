@@ -11,6 +11,8 @@ body{
     padding: 10px 10px;
     text-align: center;
     border-radius: 30px;
+    display: flex;
+    flex: 10px 10px;
 }
 
 #search{
@@ -23,7 +25,6 @@ body{
     color:red;
 
 }
-
 
 button{
     background-color: rgb(255, 255, 255, 0);
@@ -42,7 +43,6 @@ button{
     font-weight: bold;
     background-color: black;
 } */
-
 .dex-cards-principal{
     display: inline-block;
     width: 300px;
